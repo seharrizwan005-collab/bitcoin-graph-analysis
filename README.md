@@ -4,7 +4,7 @@ An analysis of the Elliptic Bitcoin transaction dataset using NetworkX to unders
 
 ## Dataset
 
-The [Elliptic Bitcoin Dataset](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set) contains:
+The ([https://www.kaggle.com/datasets/ellipticco/elliptic-data-set](https://www.kaggle.com/code/artgor/elliptic-data-eda)) contains:
 - **203,769** Bitcoin transactions
 - **234,355** transaction flows (edges)
 - Transaction labels: licit (1), illicit (2), unknown
@@ -35,6 +35,23 @@ The [Elliptic Bitcoin Dataset](https://www.kaggle.com/datasets/ellipticco/ellipt
 ## Key Insight
 
 Illicit transactions show **53.9% higher average connectivity** than licit transactions, suggesting mixing/obfuscation behavior common in money laundering.
+
+## Requirements
+networkx
+pandas
+matplotlib
+numpy
+seaborn
+jupyter
+
+
+## Usage
+
+1. Clone this repository
+2. Install requirements: `pip install -r requirements.txt`
+3. Download the Elliptic dataset from Kaggle
+4. Update file paths in the notebook to point to your data
+5. Run the notebook
 
 
 ## Requirements
