@@ -53,5 +53,3 @@ jupyter
 4. Update file paths in the notebook to point to your data
 5. Run the notebook
 
-
-## Re
